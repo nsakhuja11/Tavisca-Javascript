@@ -8,7 +8,7 @@
 	<body>
 		<section class="calculator">
 			<section>
-				<div><input id="display" onkeypress="enterKey(event)" type="text"></div>
+				<div><input id="display" onkeypress="enterKey(event)" autofocus type="text"></div>
 			</section>
 			<section id="buttons">
 				<div><input type="button" value="7" onclick="val(this.value)"></div>
@@ -27,6 +27,11 @@
 				<div><input type="button" value="0" onclick="val(this.value)"></div>
 				<div><input type="button" value="=" onclick='evl()'></div>
 				<div><input type="button" value="+" onclick="val(this.value)"></div>
+				<div><button class="hist-button" onclick="displayhistory()">History</button></div>
+			</section>
+			<section>
+				<div id="hist-display">
+				</div>
 			</section>
 		</section>
 	</body>
