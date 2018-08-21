@@ -1,0 +1,34 @@
+<!Doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="calculator.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+	<body>
+		<section class="calculator">
+			<section>
+				<div><input id="display" onkeypress="enterKey(event)" type="text"></div>
+			</section>
+			<section id="buttons">
+				<div><input type="button" value="7" onclick="val(this.value)"></div>
+				<div><input type="button" value="8" onclick="val(this.value)"></div>
+				<div><input type="button" value="9" onclick="val(this.value)"></div>
+				<div><input type="button" value="/" onclick="val(this.value)"></div>
+				<div><input type="button" value="4" onclick="val(this.value)"></div>
+				<div><input type="button" value="5" onclick="val(this.value)"></div>
+				<div><input type="button" value="6" onclick="val(this.value)"></div>
+				<div><input type="button" value="*" onclick="val(this.value)"></div>
+				<div><input type="button" value="1" onclick="val(this.value)"></div>
+				<div><input type="button" value="2" onclick="val(this.value)"></div>
+				<div><input type="button" value="3" onclick="val(this.value)"></div>
+				<div><input type="button" value="-" onclick="val(this.value)"></div>
+				<div><input type="button" value="C" onclick='clr("")'></div>
+				<div><input type="button" value="0" onclick="val(this.value)"></div>
+				<div><input type="button" value="=" onclick='evl()'></div>
+				<div><input type="button" value="+" onclick="val(this.value)"></div>
+			</section>
+		</section>
+	</body>
+	<script src="calculator.js"></script>
+</html>

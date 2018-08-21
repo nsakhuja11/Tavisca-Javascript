@@ -1,0 +1,21 @@
+#buttons {
+	display: flex;
+	flex-wrap: wrap;
+	width: 400px;
+}
+
+#display {
+	width: 396px;
+	height: 50px;
+}
+
+#buttons input {
+	width: 100px;
+	height: 50px;
+	background-color: lightgray;
+}
+
+.calculator {
+	width: 400px;
+	margin: 0 auto;
+}
