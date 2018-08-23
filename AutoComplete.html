@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="autocomplete.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+	<body onclick="hide()">
+		<div class="container">
+			<img class="img" src="tavisca.png" alt="tavisca-logo">
+			<input id="box" type="text" onkeyup="showSuggestions()" placeholder="Type to Search">
+			<span id="cancel" onclick="remove()">&#10060;</span>
+			<div class="list">
+				<ul id="options" type="none"></ul>
+			</div>
+		</div>
+	</body>
+	<script type="text/javascript" src="autocomplete.js"></script>
+</html>
