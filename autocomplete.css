@@ -1,0 +1,55 @@
+body {
+	height: auto;
+}
+
+.container {
+	margin: 0 auto;
+	width: 1024px;
+	text-align: center;
+}
+
+.img {
+	width: 500px;
+	padding: 100px;
+	padding-bottom: 20px;
+}
+
+#box {
+	width: 600px;
+	height: 35px;
+	font-size: 20px; 
+}
+
+#cancel {
+	position: relative;
+	right: 30px;
+}
+
+ul {
+	width: 601px;
+	padding-left: 1px;
+	min-height: 0px;
+	max-height: 140px;
+	border-left: 1px solid;
+	border-right: 1px solid;
+	border-bottom: 1px solid; 
+	overflow: auto;
+	margin-top: -1px;
+	margin-left: 200px;
+}
+
+.unselect {
+	background-color: white;
+	color: black;
+}
+
+li {
+	text-align: left;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+li:hover, .select {
+	background-color: #808080;
+	color: white;
+}
