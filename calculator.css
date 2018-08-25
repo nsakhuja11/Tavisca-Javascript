@@ -1,0 +1,36 @@
+#buttons {
+	display: flex;
+	flex-wrap: wrap;
+	width: 400px;
+	height: 250px;
+}
+
+#display {
+	width: 396px;
+	height: 50px;
+}
+
+.hist-button {
+	width: 400px;
+	height: 50px;
+	background-color: lightgray;
+}
+
+#buttons input {
+	width: 100px;
+	height: 50px;
+	background-color: lightgray;
+}
+
+#hist-display {
+	border-style: ridge;
+	overflow: scroll;
+	width: 396px;
+	height: 200px;
+	text-align: center;
+}	
+
+.calculator {
+	width: 400px;
+	margin: 0 auto;
+}
